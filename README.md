@@ -47,6 +47,27 @@ Trả về:
 
    		 "token": "eyJhbGciOiJIUzI1NiJ9.eyJQaHVvYyI6eyJwYXNzd29yZCI6IjEyMzQ1NiIsInVzZXJJZCI6NywiYXV0aG9yaXRpZXMiOm51bGwsInVzZXJuYW1lIjoidGVzdDIifSwiZXhwIjoxNjM5MjMwOTM1fQ.kPDUcADmssrsYAx0SEYe-66IWTTjyvpfsSglZIm7weY"
 	}
+	
+	
+REFRESHTOKEN:
+
+	GET : http://localhost:9191/auth/refreshToken?token= *TOKEN
+	
+	TOKEN: là token truyền vào
+	
+
+Trả về: 
+		
+	{
+   		 "user": {
+      			  "id": 7,
+      			  "userName": "test2",
+       			 "password": "123456"
+   			 },
+
+   		 "token": "eyJhbGciOiJIUzI1NiJ9.eyJQaHVvYyI6eyJwYXNzd29yZCI6IjEyMzQ1NiIsInVzZXJJZCI6NywiYXV0aG9yaXRpZXMiOm51bGwsInVzZXJuYW1lIjoidGVzdDIifSwiZXhwIjoxNjM5MjMwOTM1fQ.kPDUcADmssrsYAx0SEYe-66IWTTjyvpfsSglZIm7weY"
+	}
+	
 
 
 
